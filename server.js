@@ -4,8 +4,8 @@ const bodyParser = require('body-parser');
 // const { pool } = require("./connection");
 const db = require('./queries');
 
-app.listen(8080, function () {
-  console.log('listening on 8080')
+app.listen(3000, function () {
+  console.log('listening on 3000')
 });
 
 app.use(bodyParser.json());
